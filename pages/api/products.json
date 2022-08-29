@@ -1,0 +1,715 @@
+{
+    "code": 200,
+    "products": [
+      {
+        "id": 24,
+        "name": "Stylist Women Shirt",
+        "slug": "stylist-women-shirt",
+        "permalink": "http://localhost/eshopper/product/stylist-women-shirt/",
+        "date_created": "2022-07-28T13:22:44",
+        "date_created_gmt": "2022-07-28T13:22:44",
+        "date_modified": "2022-07-28T13:23:10",
+        "date_modified_gmt": "2022-07-28T13:23:10",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "",
+        "short_description": "<p>Stylish Shirt for Ladies. 100% cotton made. Cozy and comfortable</p>\n",
+        "sku": "Eshop-111K",
+        "price": "980",
+        "regular_price": "1790",
+        "sale_price": "980",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": true,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [
+          
+        ],
+        "download_limit": -1,
+        "download_expiry": -1,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": true,
+        "stock_quantity": 100,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+          "length": "",
+          "width": "",
+          "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [
+          
+        ],
+        "cross_sell_ids": [
+          
+        ],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+          {
+            "id": 16,
+            "name": "Dresses",
+            "slug": "dresses"
+          },
+          {
+            "id": 18,
+            "name": "Women",
+            "slug": "women"
+          }
+        ],
+        "tags": [
+          {
+            "id": 31,
+            "name": "Ladies",
+            "slug": "ladies"
+          },
+          {
+            "id": 32,
+            "name": "Shirt",
+            "slug": "shirt"
+          }
+        ],
+        "images": [
+          {
+            "id": 25,
+            "date_created": "2022-07-28T13:22:27",
+            "date_created_gmt": "2022-07-28T13:22:27",
+            "date_modified": "2022-07-28T13:22:27",
+            "date_modified_gmt": "2022-07-28T13:22:27",
+            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-1.jpg",
+            "name": "product-1",
+            "alt": ""
+          }
+        ],
+        "attributes": [
+          
+        ],
+        "default_attributes": [
+          
+        ],
+        "variations": [
+          
+        ],
+        "grouped_products": [
+          
+        ],
+        "menu_order": 0,
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>1,790.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></del> <ins><span class=\"woocommerce-Price-amount amount\"><bdi>980.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></ins>",
+        "related_ids": [
+          12,
+          19,
+          21,
+          18
+        ],
+        "meta_data": [
+          
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/24"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products"
+            }
+          ]
+        }
+      },
+      {
+        "id": 21,
+        "name": "Stylist Women Suit",
+        "slug": "stylist-women-suit",
+        "permalink": "http://localhost/eshopper/product/stylist-women-suit/",
+        "date_created": "2022-07-28T13:20:45",
+        "date_created_gmt": "2022-07-28T13:20:45",
+        "date_modified": "2022-07-28T13:20:49",
+        "date_modified_gmt": "2022-07-28T13:20:49",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "",
+        "short_description": "<p>Stylist Leather Suit for women</p>\n",
+        "sku": "Eshop-110K",
+        "price": "3200",
+        "regular_price": "4700",
+        "sale_price": "3200",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": true,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [
+          
+        ],
+        "download_limit": -1,
+        "download_expiry": -1,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": true,
+        "stock_quantity": 100,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+          "length": "",
+          "width": "",
+          "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [
+          
+        ],
+        "cross_sell_ids": [
+          
+        ],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+          {
+            "id": 16,
+            "name": "Dresses",
+            "slug": "dresses"
+          },
+          {
+            "id": 18,
+            "name": "Women",
+            "slug": "women"
+          }
+        ],
+        "tags": [
+          {
+            "id": 30,
+            "name": "dress",
+            "slug": "dress"
+          },
+          {
+            "id": 31,
+            "name": "Ladies",
+            "slug": "ladies"
+          },
+          {
+            "id": 27,
+            "name": "Suit",
+            "slug": "suit"
+          }
+        ],
+        "images": [
+          {
+            "id": 22,
+            "date_created": "2022-07-28T13:20:15",
+            "date_created_gmt": "2022-07-28T13:20:15",
+            "date_modified": "2022-07-28T13:20:15",
+            "date_modified_gmt": "2022-07-28T13:20:15",
+            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-7.jpg",
+            "name": "product-7",
+            "alt": ""
+          }
+        ],
+        "attributes": [
+          
+        ],
+        "default_attributes": [
+          
+        ],
+        "variations": [
+          
+        ],
+        "grouped_products": [
+          
+        ],
+        "menu_order": 0,
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>4,700.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></del> <ins><span class=\"woocommerce-Price-amount amount\"><bdi>3,200.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></ins>",
+        "related_ids": [
+          12,
+          19,
+          24,
+          18
+        ],
+        "meta_data": [
+          
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/21"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products"
+            }
+          ]
+        }
+      },
+      {
+        "id": 19,
+        "name": "Stylist Top",
+        "slug": "stylist-top",
+        "permalink": "http://localhost/eshopper/product/stylist-top/",
+        "date_created": "2022-07-28T13:13:52",
+        "date_created_gmt": "2022-07-28T13:13:52",
+        "date_modified": "2022-07-28T13:13:55",
+        "date_modified_gmt": "2022-07-28T13:13:55",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "",
+        "short_description": "<p>Stylist Tops for women. Cozy, classic, comfortable for appearances</p>\n",
+        "sku": "Eshop-108K",
+        "price": "2270",
+        "regular_price": "4000",
+        "sale_price": "2270",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": true,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [
+          
+        ],
+        "download_limit": -1,
+        "download_expiry": -1,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": true,
+        "stock_quantity": 100,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "0.45",
+        "dimensions": {
+          "length": "",
+          "width": "",
+          "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [
+          
+        ],
+        "cross_sell_ids": [
+          
+        ],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+          {
+            "id": 16,
+            "name": "Dresses",
+            "slug": "dresses"
+          },
+          {
+            "id": 18,
+            "name": "Women",
+            "slug": "women"
+          }
+        ],
+        "tags": [
+          {
+            "id": 30,
+            "name": "dress",
+            "slug": "dress"
+          },
+          {
+            "id": 29,
+            "name": "female",
+            "slug": "female"
+          },
+          {
+            "id": 28,
+            "name": "top",
+            "slug": "top"
+          }
+        ],
+        "images": [
+          {
+            "id": 20,
+            "date_created": "2022-07-28T13:12:45",
+            "date_created_gmt": "2022-07-28T13:12:45",
+            "date_modified": "2022-07-28T13:12:45",
+            "date_modified_gmt": "2022-07-28T13:12:45",
+            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-4.jpg",
+            "name": "product-4",
+            "alt": ""
+          }
+        ],
+        "attributes": [
+          
+        ],
+        "default_attributes": [
+          
+        ],
+        "variations": [
+          
+        ],
+        "grouped_products": [
+          
+        ],
+        "menu_order": 0,
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>4,000.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></del> <ins><span class=\"woocommerce-Price-amount amount\"><bdi>2,270.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></ins>",
+        "related_ids": [
+          21,
+          12,
+          18,
+          24
+        ],
+        "meta_data": [
+          
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/19"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products"
+            }
+          ]
+        }
+      },
+      {
+        "id": 18,
+        "name": "Stylish Party Suit",
+        "slug": "stylish-party-suit",
+        "permalink": "http://localhost/eshopper/product/stylish-party-suit/",
+        "date_created": "2022-07-28T13:10:24",
+        "date_created_gmt": "2022-07-28T13:10:24",
+        "date_modified": "2022-07-28T13:10:27",
+        "date_modified_gmt": "2022-07-28T13:10:27",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "",
+        "short_description": "<p>Party Suit for men. Made with 100% cotton. Fit for all weather. Best suit for party, weedings, holidays.</p>\n",
+        "sku": "Eshop-104K",
+        "price": "2700",
+        "regular_price": "5000",
+        "sale_price": "2700",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": true,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [
+          
+        ],
+        "download_limit": -1,
+        "download_expiry": -1,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": true,
+        "stock_quantity": 100,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+          "length": "",
+          "width": "",
+          "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [
+          
+        ],
+        "cross_sell_ids": [
+          
+        ],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+          {
+            "id": 16,
+            "name": "Dresses",
+            "slug": "dresses"
+          },
+          {
+            "id": 17,
+            "name": "Men",
+            "slug": "men"
+          }
+        ],
+        "tags": [
+          {
+            "id": 24,
+            "name": "Men",
+            "slug": "men"
+          },
+          {
+            "id": 27,
+            "name": "Suit",
+            "slug": "suit"
+          }
+        ],
+        "images": [
+          {
+            "id": 15,
+            "date_created": "2022-07-28T13:06:41",
+            "date_created_gmt": "2022-07-28T13:06:41",
+            "date_modified": "2022-07-28T13:06:41",
+            "date_modified_gmt": "2022-07-28T13:06:41",
+            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-6.jpg",
+            "name": "product-6",
+            "alt": ""
+          }
+        ],
+        "attributes": [
+          
+        ],
+        "default_attributes": [
+          
+        ],
+        "variations": [
+          
+        ],
+        "grouped_products": [
+          
+        ],
+        "menu_order": 0,
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>5,000.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></del> <ins><span class=\"woocommerce-Price-amount amount\"><bdi>2,700.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></ins>",
+        "related_ids": [
+          24,
+          21,
+          12,
+          19
+        ],
+        "meta_data": [
+          
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/18"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products"
+            }
+          ]
+        }
+      },
+      {
+        "id": 12,
+        "name": "Stylist Leather Jacket",
+        "slug": "stylist-leather-jacket",
+        "permalink": "http://localhost/eshopper/product/stylist-leather-jacket/",
+        "date_created": "2022-07-28T13:03:33",
+        "date_created_gmt": "2022-07-28T13:03:33",
+        "date_modified": "2022-07-28T13:08:05",
+        "date_modified_gmt": "2022-07-28T13:08:05",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "",
+        "short_description": "<p>Premium Leather Jacket for men. Available in various sizes. Fit for all weather. Matches with your choice. Keeps you cool &amp; looks trendy</p>\n",
+        "sku": "Eshop-103K",
+        "price": "760",
+        "regular_price": "1150",
+        "sale_price": "760",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": true,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [
+          
+        ],
+        "download_limit": -1,
+        "download_expiry": -1,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": true,
+        "stock_quantity": 100,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "0.75",
+        "dimensions": {
+          "length": "19",
+          "width": "22",
+          "height": "33"
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [
+          
+        ],
+        "cross_sell_ids": [
+          
+        ],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+          {
+            "id": 16,
+            "name": "Dresses",
+            "slug": "dresses"
+          },
+          {
+            "id": 17,
+            "name": "Men",
+            "slug": "men"
+          }
+        ],
+        "tags": [
+          {
+            "id": 25,
+            "name": "Jacket",
+            "slug": "jacket"
+          },
+          {
+            "id": 26,
+            "name": "Leather",
+            "slug": "leather"
+          },
+          {
+            "id": 24,
+            "name": "Men",
+            "slug": "men"
+          }
+        ],
+        "images": [
+          {
+            "id": 17,
+            "date_created": "2022-07-28T13:07:39",
+            "date_created_gmt": "2022-07-28T13:07:39",
+            "date_modified": "2022-07-28T13:07:39",
+            "date_modified_gmt": "2022-07-28T13:07:39",
+            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-3.jpg",
+            "name": "product-3",
+            "alt": ""
+          }
+        ],
+        "attributes": [
+          
+        ],
+        "default_attributes": [
+          
+        ],
+        "variations": [
+          
+        ],
+        "grouped_products": [
+          
+        ],
+        "menu_order": 0,
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>1,150.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></del> <ins><span class=\"woocommerce-Price-amount amount\"><bdi>760.00<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></ins>",
+        "related_ids": [
+          24,
+          21,
+          18,
+          19
+        ],
+        "meta_data": [
+          
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/12"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products"
+            }
+          ]
+        }
+      }
+    ]
+  }

@@ -1,0 +1,271 @@
+{
+    "code": 200,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Accessories",
+        "slug": "accessories",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": {
+          "id": 26,
+          "date_created": "2022-07-29T00:33:06",
+          "date_created_gmt": "2022-07-29T00:33:06",
+          "date_modified": "2022-07-29T00:33:06",
+          "date_modified_gmt": "2022-07-29T00:33:06",
+          "src": "http://localhost/eshopper/wp-content/uploads/2022/07/cat-4.jpg",
+          "name": "cat-4",
+          "alt": ""
+        },
+        "menu_order": 0,
+        "count": 0,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/15"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories"
+            }
+          ]
+        }
+      },
+      {
+        "id": 20,
+        "name": "Bags",
+        "slug": "bags",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": {
+          "id": 27,
+          "date_created": "2022-07-29T00:33:40",
+          "date_created_gmt": "2022-07-29T00:33:40",
+          "date_modified": "2022-07-29T00:33:40",
+          "date_modified_gmt": "2022-07-29T00:33:40",
+          "src": "http://localhost/eshopper/wp-content/uploads/2022/07/cat-5.jpg",
+          "name": "cat-5",
+          "alt": ""
+        },
+        "menu_order": 0,
+        "count": 0,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/20"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories"
+            }
+          ]
+        }
+      },
+      {
+        "id": 22,
+        "name": "Cosmetics",
+        "slug": "cosmetics",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": {
+          "id": 28,
+          "date_created": "2022-07-29T00:39:09",
+          "date_created_gmt": "2022-07-29T00:39:09",
+          "date_modified": "2022-07-29T00:39:09",
+          "date_modified_gmt": "2022-07-29T00:39:09",
+          "src": "http://localhost/eshopper/wp-content/uploads/2022/07/ImageForArticle_22033_16430370682719147.jpg",
+          "name": "ImageForArticle_22033_16430370682719147",
+          "alt": ""
+        },
+        "menu_order": 0,
+        "count": 0,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/22"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories"
+            }
+          ]
+        }
+      },
+      {
+        "id": 16,
+        "name": "Dresses",
+        "slug": "dresses",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": {
+          "id": 33,
+          "date_created": "2022-07-29T01:25:19",
+          "date_created_gmt": "2022-07-29T01:25:19",
+          "date_modified": "2022-07-29T01:25:19",
+          "date_modified_gmt": "2022-07-29T01:25:19",
+          "src": "http://localhost/eshopper/wp-content/uploads/2022/07/carousel-1.jpg",
+          "name": "carousel-1",
+          "alt": ""
+        },
+        "menu_order": 0,
+        "count": 5,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/16"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories"
+            }
+          ]
+        }
+      },
+      {
+        "id": 23,
+        "name": "Jewellery",
+        "slug": "jewellery",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": {
+          "id": 31,
+          "date_created": "2022-07-29T00:43:10",
+          "date_created_gmt": "2022-07-29T00:43:10",
+          "date_modified": "2022-07-29T00:43:10",
+          "date_modified_gmt": "2022-07-29T00:43:10",
+          "src": "http://localhost/eshopper/wp-content/uploads/2022/07/43b60accbbf6f1e822b1eee8de7ec760.jpg",
+          "name": "43b60accbbf6f1e822b1eee8de7ec760",
+          "alt": ""
+        },
+        "menu_order": 0,
+        "count": 0,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/23"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories"
+            }
+          ]
+        }
+      },
+      {
+        "id": 17,
+        "name": "Men",
+        "slug": "men",
+        "parent": 16,
+        "description": "",
+        "display": "default",
+        "image": {
+          "id": 29,
+          "date_created": "2022-07-29T00:40:07",
+          "date_created_gmt": "2022-07-29T00:40:07",
+          "date_modified": "2022-07-29T00:40:07",
+          "date_modified_gmt": "2022-07-29T00:40:07",
+          "src": "http://localhost/eshopper/wp-content/uploads/2022/07/cat-1.jpg",
+          "name": "cat-1",
+          "alt": ""
+        },
+        "menu_order": 0,
+        "count": 2,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/17"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories"
+            }
+          ],
+          "up": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/16"
+            }
+          ]
+        }
+      },
+      {
+        "id": 21,
+        "name": "Shoes",
+        "slug": "shoes",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": {
+          "id": 32,
+          "date_created": "2022-07-29T00:43:32",
+          "date_created_gmt": "2022-07-29T00:43:32",
+          "date_modified": "2022-07-29T00:43:32",
+          "date_modified_gmt": "2022-07-29T00:43:32",
+          "src": "http://localhost/eshopper/wp-content/uploads/2022/07/cat-6.jpg",
+          "name": "cat-6",
+          "alt": ""
+        },
+        "menu_order": 0,
+        "count": 0,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/21"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories"
+            }
+          ]
+        }
+      },
+      {
+        "id": 18,
+        "name": "Women",
+        "slug": "women",
+        "parent": 16,
+        "description": "",
+        "display": "default",
+        "image": {
+          "id": 30,
+          "date_created": "2022-07-29T00:41:56",
+          "date_created_gmt": "2022-07-29T00:41:56",
+          "date_modified": "2022-07-29T00:41:56",
+          "date_modified_gmt": "2022-07-29T00:41:56",
+          "src": "http://localhost/eshopper/wp-content/uploads/2022/07/cat-2.jpg",
+          "name": "cat-2",
+          "alt": ""
+        },
+        "menu_order": 0,
+        "count": 3,
+        "_links": {
+          "self": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/18"
+            }
+          ],
+          "collection": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories"
+            }
+          ],
+          "up": [
+            {
+              "href": "http://localhost/eshopper/wp-json/wc/v3/products/categories/16"
+            }
+          ]
+        }
+      }
+    ]
+  }
