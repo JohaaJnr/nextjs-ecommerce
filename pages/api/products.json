@@ -15,7 +15,7 @@
         "featured": false,
         "catalog_visibility": "visible",
         "description": "",
-        "short_description": "<p>Stylish Shirt for Ladies. 100% cotton made. Cozy and comfortable</p>\n",
+        "short_description": "Stylish Shirt for Ladies. 100% cotton made. Cozy and comfortable\n",
         "sku": "Eshop-111K",
         "price": "980",
         "regular_price": "1790",
@@ -97,7 +97,7 @@
             "date_created_gmt": "2022-07-28T13:22:27",
             "date_modified": "2022-07-28T13:22:27",
             "date_modified_gmt": "2022-07-28T13:22:27",
-            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-1.jpg",
+            "src": "/img/product-1.jpg",
             "name": "product-1",
             "alt": ""
           }
@@ -154,7 +154,7 @@
         "featured": false,
         "catalog_visibility": "visible",
         "description": "",
-        "short_description": "<p>Stylist Leather Suit for women</p>\n",
+        "short_description": "Stylist Leather Suit for women\n",
         "sku": "Eshop-110K",
         "price": "3200",
         "regular_price": "4700",
@@ -241,7 +241,7 @@
             "date_created_gmt": "2022-07-28T13:20:15",
             "date_modified": "2022-07-28T13:20:15",
             "date_modified_gmt": "2022-07-28T13:20:15",
-            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-7.jpg",
+            "src": "/img/product-7.jpg",
             "name": "product-7",
             "alt": ""
           }
@@ -298,7 +298,7 @@
         "featured": false,
         "catalog_visibility": "visible",
         "description": "",
-        "short_description": "<p>Stylist Tops for women. Cozy, classic, comfortable for appearances</p>\n",
+        "short_description": "Stylist Tops for women. Cozy, classic, comfortable for appearances\n",
         "sku": "Eshop-108K",
         "price": "2270",
         "regular_price": "4000",
@@ -385,7 +385,7 @@
             "date_created_gmt": "2022-07-28T13:12:45",
             "date_modified": "2022-07-28T13:12:45",
             "date_modified_gmt": "2022-07-28T13:12:45",
-            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-4.jpg",
+            "src": "/img/product-4.jpg",
             "name": "product-4",
             "alt": ""
           }
@@ -442,7 +442,7 @@
         "featured": false,
         "catalog_visibility": "visible",
         "description": "",
-        "short_description": "<p>Party Suit for men. Made with 100% cotton. Fit for all weather. Best suit for party, weedings, holidays.</p>\n",
+        "short_description": "Party Suit for men. Made with 100% cotton. Fit for all weather. Best suit for party, weedings, holidays.\n",
         "sku": "Eshop-104K",
         "price": "2700",
         "regular_price": "5000",
@@ -524,7 +524,7 @@
             "date_created_gmt": "2022-07-28T13:06:41",
             "date_modified": "2022-07-28T13:06:41",
             "date_modified_gmt": "2022-07-28T13:06:41",
-            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-6.jpg",
+            "src": "/img/product-6.jpg",
             "name": "product-6",
             "alt": ""
           }
@@ -581,7 +581,7 @@
         "featured": false,
         "catalog_visibility": "visible",
         "description": "",
-        "short_description": "<p>Premium Leather Jacket for men. Available in various sizes. Fit for all weather. Matches with your choice. Keeps you cool &amp; looks trendy</p>\n",
+        "short_description": "Premium Leather Jacket for men. Available in various sizes. Fit for all weather. Matches with your choice. Keeps you cool &amp; looks trendy\n",
         "sku": "Eshop-103K",
         "price": "760",
         "regular_price": "1150",
@@ -668,7 +668,7 @@
             "date_created_gmt": "2022-07-28T13:07:39",
             "date_modified": "2022-07-28T13:07:39",
             "date_modified_gmt": "2022-07-28T13:07:39",
-            "src": "http://localhost/eshopper/wp-content/uploads/2022/07/product-3.jpg",
+            "src": "/img/product-3.jpg",
             "name": "product-3",
             "alt": ""
           }
