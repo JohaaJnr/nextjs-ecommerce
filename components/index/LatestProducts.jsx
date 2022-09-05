@@ -2,13 +2,15 @@ import formatter from '../../helpers/format'
 import React, { useState } from 'react'
 import { useContext } from 'react'
 import { AppContext } from '../../helpers/AppState'
+import { useEffect } from 'react'
 
 const LatestProducts = (props) => {
 
 const [products, setProducts] = useState(props.p)
 
 
-const { dispatch } = useContext(AppContext)
+
+const { state, dispatch } = useContext(AppContext)
 
 const addtoCart =(e)=>{
    
@@ -69,8 +71,12 @@ const addtoCart =(e)=>{
                                     </div>
                                 </div>
                                 <div className="card-footer d-flex justify-content-between bg-light border">
-                                    <a className="btn btn-sm text-dark p-0" href={`/details/${e.id}`} ><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                                    <button onClick={addtoCart} data-id={e.id} data-name={e.name} data-price={e.sale_price} data-img={e.images[0].src} className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</button>
+                                    <a className="btn btn-sm text-dark p-1" href={`/details/${e.id}`} ><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                                    {
+                                        state.cart.some((p)=> p.productID == e.id) ? 
+                                        <button onClick={()=> dispatch({ type: 'removeCart', id: e.id })} data-id={e.id} className="btn btn-sm btn-danger text-white p-1"><i className="fas fa-shopping-cart text-white mr-1"></i>Remove from Cart</button>
+                                        : <button onClick={addtoCart} data-id={e.id} data-name={e.name} data-price={e.sale_price} data-img={e.images[0].src} className="btn btn-sm text-dark p-1"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</button>
+                                    }
                                 </div>
                                 
                             </div>

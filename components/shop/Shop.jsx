@@ -1,11 +1,20 @@
 import React, { useState } from 'react'
+import { useEffect } from 'react'
 import { useContext } from 'react'
 import { AppContext } from '../../helpers/AppState'
 import formatter from '../../helpers/format'
 
-const Shop = (props) => {
-    const [item, setItem] = useState(props.items)
-    const { dispatch } = useContext(AppContext)
+const Shop = () => {
+    
+    const { state, dispatch } = useContext(AppContext)
+    const [item, setItem] = useState(state.products)
+   const [price, setPrice] = useState(0)
+   
+   useEffect(()=>{
+    setItem(state.products)
+   },[state.products])
+    
+   
     const addCart =(e)=>{
    
         e.preventDefault()
@@ -25,6 +34,8 @@ const Shop = (props) => {
          })
          
      }
+
+   
    
   return (
     <div className="container-fluid pt-5">
@@ -34,75 +45,25 @@ const Shop = (props) => {
            
             <div className="border-bottom mb-4 pb-4">
                 <h5 className="font-weight-semi-bold mb-4">Filter by price</h5>
-               
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" checked id="price-all"/>
-                        <label className="custom-control-label" >All Price</label>
-                        <span className="badge border font-weight-normal">1000</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" id="price-1"/>
-                        <label className="custom-control-label" >$0 - $100</label>
-                        <span className="badge border font-weight-normal">150</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" id="price-2"/>
-                        <label className="custom-control-label" >$100 - $200</label>
-                        <span className="badge border font-weight-normal">295</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" id="price-3"/>
-                        <label className="custom-control-label" >$200 - $300</label>
-                        <span className="badge border font-weight-normal">246</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" id="price-4"/>
-                        <label className="custom-control-label" >$300 - $400</label>
-                        <span className="badge border font-weight-normal">145</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between">
-                        <input type="checkbox" className="custom-control-input" id="price-5"/>
-                        <label className="custom-control-label" >$400 - $500</label>
-                        <span className="badge border font-weight-normal">168</span>
-                    </div>
-                
+               <div>
+                        <label className="radio px-2"> 
+                           <input type="checkbox" onClick={()=> dispatch({ type: 'priceFilter', payload: 1000 })} value="1000"  /> <span>0-1000</span> 
+                         </label> 
+                         <label className="radio px-2"> 
+                           <input type="checkbox" onClick={()=> dispatch({ type: 'priceFilter', payload: 3000 })} value="2000" /> <span >1000-2000</span> 
+                         </label>
+                         
+                         <label className="radio px-2"> 
+                           <input type="checkbox" onClick={()=> dispatch({ type: 'priceFilter', payload: 5000 })}  value="3000"  /> <span>2000-5000</span> 
+                         </label>
+                         <label className="radio px-2"> 
+                           <input type="checkbox"onClick={()=> dispatch({ type: 'priceFilter', payload: 10000 })}  value="5000"  /> <span >5000-10000</span> 
+                         </label>
+                         
+                </div>
             </div>
            
-            <div className="border-bottom mb-4 pb-4">
-                <h5 className="font-weight-semi-bold mb-4">Filter by color</h5>
-                <form>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" checked id="color-all"/>
-                        <label className="custom-control-label" >All Color</label>
-                        <span className="badge border font-weight-normal">1000</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" id="color-1"/>
-                        <label className="custom-control-label" >Black</label>
-                        <span className="badge border font-weight-normal">150</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" id="color-2"/>
-                        <label className="custom-control-label" >White</label>
-                        <span className="badge border font-weight-normal">295</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" id="color-3"/>
-                        <label className="custom-control-label" >Red</label>
-                        <span className="badge border font-weight-normal">246</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" className="custom-control-input" id="color-4"/>
-                        <label className="custom-control-label">Blue</label>
-                        <span className="badge border font-weight-normal">145</span>
-                    </div>
-                    <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between">
-                        <input type="checkbox" className="custom-control-input" id="color-5"/>
-                        <label className="custom-control-label">Green</label>
-                        <span className="badge border font-weight-normal">168</span>
-                    </div>
-                </form>
-            </div>
+           
           
             <div className="mb-5">
                 <h5 className="font-weight-semi-bold mb-4">Filter by size</h5>
@@ -187,8 +148,12 @@ const Shop = (props) => {
                             </div>
                         </div>
                         <div className="card-footer d-flex justify-content-between bg-light border">
-                            <a href={`/details/${e.id}`} className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                            <button onClick={addCart} data-id={e.id} data-name={e.name} data-price={e.sale_price} data-img={e.images[0].src} className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</button>
+                            <a href={`/details/${e.id}`} className="btn btn-sm text-dark p-1"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                            {
+                                        state.cart.some((p)=> p.productID == e.id) ? 
+                                        <button onClick={()=> dispatch({ type: 'removeCart', id: e.id })} data-id={e.id} className="btn btn-sm btn-danger text-white p-1"><i className="fas fa-shopping-cart text-white mr-1"></i>Remove from Cart</button>
+                                        : <button onClick={addCart} data-id={e.id} data-name={e.name} data-price={e.sale_price} data-img={e.images[0].src} className="btn btn-sm text-dark p-1"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</button>
+                            }
                         </div>
                     </div>
                 </div>

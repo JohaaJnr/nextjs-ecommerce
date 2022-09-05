@@ -1,9 +1,10 @@
 import React, { useState, createContext, useReducer, useEffect } from "react";
 import CartReducer from './CartReducer'
+import Product from '../pages/api/products.json'
 
 const iniState = {
-    count: 0,
-    product: []
+    products: Product.products,
+    cart : []
     
 }
 
@@ -12,6 +13,8 @@ const iniState = {
 export const AppContext = createContext()
 
 export const ContextProvider = (props) =>{
+    
+    
     const [state, dispatch] = useReducer(CartReducer, iniState)
    
     return(

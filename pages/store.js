@@ -3,7 +3,7 @@ import ShopHeader from "../components/shop/ShopHeader";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
 import Topbar from "../components/Topbar";
-import Products from './api/products.json'
+
 
 export default function Store(){
     return(
@@ -11,7 +11,7 @@ export default function Store(){
             <Header />
             <Topbar />
             <ShopHeader />
-            <Shop items={Products.products} />
+            <Shop />
 
         </Layout>
     )

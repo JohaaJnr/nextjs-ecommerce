@@ -10,7 +10,7 @@ const Topbar = () => {
     const [counter, setCounter] = useState(0)
 
     useEffect(()=>{
-        setCounter(state.product.length)
+        setCounter(state.cart.length)
     },[state])
     
   return (

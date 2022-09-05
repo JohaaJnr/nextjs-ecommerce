@@ -4,7 +4,7 @@ export default (state, action) =>{
         return{
             ...state,
            
-            product: [action.payload, ...state.product],
+            cart: [action.payload, ...state.cart],
             
            
         } 
@@ -13,7 +13,7 @@ export default (state, action) =>{
             return{
                 ...state,
             
-               product: state.product.filter((c)=> 
+               cart: state.cart.filter((c)=> 
                 c.productID == action.id ? c.qty=c.qty+1 : c.qty
                
                 
@@ -26,7 +26,7 @@ export default (state, action) =>{
                 return{
                     ...state,
                     
-                    product: state.product.filter((c)=> 
+                    cart: state.cart.filter((c)=> 
                         c.productID == action.id ? c.qty = c.qty-1 : c.qty
                     ),
                    
@@ -36,11 +36,20 @@ export default (state, action) =>{
                 return{
                     ...state,
                    
-                    product: state.product.filter((c)=> 
+                    cart: state.cart.filter((c)=> 
                         c.productID != action.id 
                     ),
                     
                 }
+
+            case 'priceFilter' :
+                
+                
+                return{
+                    ...state,
+                    products: state.products.filter((c)=> c.sale_price < action.payload )
+                }
+                
        
         default: return state
         

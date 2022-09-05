@@ -6,15 +6,15 @@ import formatter from '../../helpers/format'
 const ShopCart = () => {
    const { state, dispatch } = useContext(AppContext)
   
-   const [items, setItems] = useState(state.product)
-   const [total, setTotal] = useState(state.product.reduce((acc, curr)=> acc + curr.productPrice*curr.qty, 0))
+   const [items, setItems] = useState(state.cart)
+   const [total, setTotal] = useState(state.cart.reduce((acc, curr)=> acc + curr.productPrice*curr.qty, 0))
 
    useEffect(()=>{
-    setItems(state.product)
-    setTotal(state.product.reduce((acc, curr)=> acc + curr.productPrice*curr.qty, 0))
+    setItems(state.cart)
+    setTotal(state.cart.reduce((acc, curr)=> acc + curr.productPrice*curr.qty, 0))
    },[state])
     
- console.log(items)
+
  
   return (
     <div className="container-fluid pt-5">
