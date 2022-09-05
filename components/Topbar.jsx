@@ -15,7 +15,7 @@ const Topbar = () => {
     
   return (
     
-        <div className="container-fluid">
+        <div className="container-fluid bg-light sticky-top">
     <div className="row bg-secondary py-2 px-xl-5">
         <div className="col-lg-6 d-none d-lg-block">
             <div className="d-inline-flex align-items-center">
